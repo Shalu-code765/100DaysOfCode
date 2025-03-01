@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a; /* Dark background for contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    background-color: #2c2c2c; /* Slightly lighter dark background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7); /* Subtle shadow for depth */
+}
+
+.clock {
+    font-size: 72px; /* Larger font size */
+    color: #6cc6bf; /* Purple color */
+    text-shadow: 0 0 10px #2f7377, 0 0 3px #a1b9bc; /* Glow effect */
+    font-weight: bold; /* Bold text for better readability */
+}
